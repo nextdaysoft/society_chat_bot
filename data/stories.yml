@@ -1,0 +1,53 @@
+version: "3.1"
+
+stories:
+
+  - story: greet user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: about app
+    steps:
+      - intent: about_app
+      - action: utter_about_app
+
+  - story: admin features
+    steps:
+      - intent: admin_features
+      - action: utter_admin_features
+
+  - story: member features
+    steps:
+      - intent: member_features
+      - action: utter_member_features
+
+  - story: subscription info
+    steps:
+      - intent: subscription_info
+      - action: utter_subscription_info
+
+  - story: complaint flow
+    steps:
+      - intent: complaints
+      - action: utter_complaints
+
+  - story: billing info
+    steps:
+      - intent: billing_payment
+      - action: utter_billing_payment
+
+  - story: polls
+    steps:
+      - intent: polls_forums
+      - action: utter_polls_forums
+
+  - story: privacy
+    steps:
+      - intent: privacy_policy
+      - action: utter_privacy_policy
+
+  - story: tutorial video
+    steps:
+      - intent: tutorial_video
+      - action: utter_tutorial_video

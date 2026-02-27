@@ -1,0 +1,77 @@
+version: "3.1"
+
+intents:
+  - greet
+  - about_app
+  - admin_features
+  - member_features
+  - subscription_info
+  - complaints
+  - billing_payment
+  - polls_forums
+  - privacy_policy
+  - tutorial_video
+
+responses:
+
+  utter_greet:
+    - text: "Hello 👋 Welcome to the Society Management App assistant. How can I help you?"
+
+  utter_about_app:
+    - text: "This Society Management App helps residential societies manage daily operations and communication between admins and members through a single platform."
+
+  utter_admin_features:
+    - text: |
+        🔐 Admin Features:
+        • Manage resident information
+        • View & resolve complaints
+        • Create announcements
+        • Manage maintenance billing
+        • Create polls
+        • Monitor forums
+        • Manage subscriptions
+
+  utter_member_features:
+    - text: |
+        👥 Member Features:
+        • View announcements
+        • Raise complaints
+        • Participate in polls & forums
+        • Book events & facilities
+        • Pay maintenance bills
+        • Stay updated with society activities
+
+  utter_subscription_info:
+    - text: |
+        💳 Subscription Details:
+        • 1 Month Free Trial
+        • Monthly Plan
+        • Quarterly Plan
+        • Yearly Plan
+        In-app purchases range from ₹250 to ₹1200.
+
+  utter_complaints:
+    - text: "Members can raise complaints from the complaints section. Admins can view and resolve them from their dashboard."
+
+  utter_billing_payment:
+    - text: "Members can view and pay maintenance bills inside the app. Admins manage billing and payment records."
+
+  utter_polls_forums:
+    - text: "Members can participate in society polls and discussion forums to engage with the community."
+
+  utter_privacy_policy:
+    - text: "User data is used only to provide app functionality and improve user experience. All information is handled responsibly according to privacy standards."
+
+  utter_tutorial_video:
+    - text: "Watch this tutorial video:"
+    - text: >
+        <iframe width="100%" height="220"
+        src="https://www.youtube.com/embed/f0MtEZPRPCg"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+        </iframe>
+ #  utter_tutorial_video:
+#    - text: "Watch this tutorial video:"
+#      custom:
+#        video_url: "https://youtube.com/shorts/f0MtEZPRPCg?feature=share"

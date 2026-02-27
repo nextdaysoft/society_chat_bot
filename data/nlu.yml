@@ -1,0 +1,83 @@
+version: "3.1"
+
+nlu:
+
+  - intent: greet
+    examples: |
+      - hi
+      - hello
+      - hey
+      - good morning
+      - good evening
+
+  - intent: about_app
+    examples: |
+      - what is this app
+      - tell me about the society app
+      - what does this app do
+      - about the app
+      - explain this application
+
+  - intent: admin_features
+    examples: |
+      - what can admin do
+      - admin features
+      - society manager features
+      - what are manager options
+      - what control does admin have
+
+  - intent: member_features
+    examples: |
+      - what can members do
+      - member features
+      - what are society member options
+      - what can I do as member
+      - features for residents
+
+  - intent: subscription_info
+    examples: |
+      - what is the subscription plan
+      - pricing details
+      - how much does it cost
+      - is there free trial
+      - subscription details
+
+  - intent: complaints
+    examples: |
+      - how to raise complaint
+      - how to submit service request
+      - complaint process
+      - report issue
+      - maintenance complaint
+
+  - intent: billing_payment
+    examples: |
+      - how to pay maintenance bill
+      - view maintenance charges
+      - billing details
+      - payment options
+      - maintenance payment
+
+  - intent: polls_forums
+    examples: |
+      - how to participate in poll
+      - discussion forum
+      - vote in society poll
+      - community discussions
+      - society poll feature
+
+  - intent: privacy_policy
+    examples: |
+      - how is my data used
+      - privacy policy
+      - is my data safe
+      - data usage information
+      - how do you handle user data
+
+  - intent: tutorial_video
+    examples: |
+      - show tutorial
+      - play demo video
+      - app tutorial
+      - how to use the app
+      - show me video guide
